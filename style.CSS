@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+body {
+	background-color: gray;
+}
+
+header{
+	background-color : #2B65EC;
+	color: white;
+	padding: 20px;
+}
+
+header h2{
+	font-size: 36px;
+	margin-bottom: 5px;
+}
+
+.utama{
+	
+	max-width: 1080px;
+	margin: 20px auto;
+	background-color: white;
+	padding: 15px;
+	overflow: hidden;
+}
+
+.navigasi ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #00008b;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.navigasi li{
+	float: left;
+}
+
+.navigasi li a{
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block;	
+}
+
+.navigasi li a:hover{
+	background-color: black;
+	transition-duration: 1s; 
+}
+
+.banner {
+	margin-bottom: 15px;
+
+}
+
+.banner img{
+	display: block;
+	height: 350px;
+	width: 100%;
+}
+
+footer {
+
+	clear: both;
+	background-color: #2B65EC;
+	color: white;
+	padding: 15px;
+	text-align: center;
+}
+
+@media screen and (max-width:780px){
+	header h2, header p {
+		text-align: center;
+	}
+
+	.navigasi li {
+		float: none;
+	}
+}
+.div-kiri{
+	width: 75%;
+	background-color: white;
+	float: left;
+	padding: 10px;
+	height: 780px;
+}
+
+.div-kanan{
+	width: 25%;
+	background-color: #87CEEB;
+	float: right;
+	padding: 10px;
+	height: 780px;
+}
